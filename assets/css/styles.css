@@ -182,9 +182,9 @@
     color: var(--primary-color);
 }
 
-@media (max-width: 800px)
-    .intro-content, .grid{
+@media (max-width: 800px){.intro-content, .grid{
         grid-template-columns: 1fr;
+    
     }
     .gallary-img{
     width: 100%;
@@ -235,6 +235,8 @@
     }
     .menu-spacing{
         display: none;
+    }
+
 
 
 }
