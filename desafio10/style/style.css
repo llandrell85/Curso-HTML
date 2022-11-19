@@ -150,6 +150,11 @@ main img.pequena {
     display: block;
     margin: auto;
 }
+main iframe.videop{
+    min-width: 450px;
+    display: block;
+    margin: auto;
+}
 
 footer{
     background-color: var(--cor5);
