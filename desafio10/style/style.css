@@ -145,13 +145,14 @@ main a:hover{
 main img{
     width: 100%;
 }
+
 main img.pequena {
     max-width: 350px;
     display: block;
     margin: auto;
 }
 .vpequena {
-    max-width: 250px;
+    max-width: 50vmax;
     display: block;
     margin: auto;
     margin-bottom: 40px;
