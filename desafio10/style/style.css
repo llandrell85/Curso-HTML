@@ -161,6 +161,7 @@ main img.pequena {
 footer{
     background-color: var(--cor5);
     color: white;
+    padding: 10px 20px;
 }
 
 @media (max-width: 800px){.intro-content, .grid{
