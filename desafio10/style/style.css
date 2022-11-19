@@ -152,7 +152,7 @@ main img.pequena {
     margin: auto;
 }
 .vpequena {
-    max-width: 80vmin;
+    max-width: 70vmin;
     display: block;
     margin: auto;
     margin-bottom: 40px;
