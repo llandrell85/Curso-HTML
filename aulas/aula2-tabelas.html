@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando tabelas semanticas</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+
+        table{
+            border-collapse: collapse;
+            width: 600px;
+            display: flexbox;
+            margin: auto;
+        }
+        thead{
+            background-color: rgb(79, 80, 80);
+            color: white;
+        }
+        td, th{
+            border: 2px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        td.num{
+            text-align: right;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de Tabelas Grandes</h1>
+
+    <!--
+        HTML5 anatomia semantica para tabelas grandes
+        TABLE = TABELA
+            THEAD = CABEÇALHO
+             TR = LINHA DE TABELA
+                TH = CABEÇALHO DE TABELA
+                TD = DADOS DA TABELA / colunas**
+
+            TBODY = CORPO
+             TR
+                TH
+                TD
+
+            
+            TFOOT = RODAPÉ
+             TR
+                TH
+                TD
+    -->
+    <table>
+        <thead>
+            <tr>
+                <th>Posição</th>
+                <th>Unidade Federativa</th>
+                <th>População 2021</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1º</td>
+                <td>São Paulo</td>
+                <td class="num">46 649 132</td>
+            </tr>
+            <tr>
+                <td>2º</td>
+                <td>Minas Gerais</td>
+                <td class="num">21 411 923</td>
+            </tr>
+            <tr>
+                <td>3º</td>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 463 349</td>
+            </tr>
+            <tr>
+                <td>3º</td>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 463 349</td>
+            </tr>
+            <tr>
+                <td>4º</td>
+                <td>Bahia</td>
+                <td class="num">14 985 284</td>
+            </tr>
+            <tr>
+                <td>5º</td>
+                <td>Paraná</td>
+                <td class="num">11 597 484</td>
+            </tr>
+            <tr>
+                <td>6º</td>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11 466 630</td>
+            </tr>
+            <tr>
+                <td>7º</td>
+                <td>Pernambuco</td>
+                <td class="num">9 674 793</td>
+            </tr>
+            <tr>
+                <td>8º</td>
+                <td>Ceará</td>
+                <td class="num">9 240 580</td>
+            </tr>
+            <tr>
+                <td>9º</td>
+                <td>Pará</td>
+                <td class="num">8 777 124</td>
+            </tr>
+            <tr>
+                <td>10º</td>
+                <td>Santa Catarina</td>
+                <td class="num">7 338 473</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            
+            <tr>
+                
+                <td colspan="3">
+                Tabela Referente a população dos 10 primeiros estados do Brasil
+                </td>
+                
+            
+            </tr>
+            
+           
+        </tfoot>
+
+    </table>
+    
+</body>
+</html>
